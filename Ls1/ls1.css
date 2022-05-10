@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar{
+    position: relative;
+}
+
+.sidebar .wrap{
+    position: absolute;
+    width: 150px;
+    height: 935px;
+    background-color: #191718;
+}
+.sidebar .wrap ul{
+    padding: 0;
+}
+.sidebar .wrap ul li{
+    padding-left: 14px;
+    padding-top: 16px;
+    padding-bottom:11px;
+    border-bottom: 1px solid #5C5C5C;
+}
+.sidebar .wrap ul li a.active{
+    color: #fff;
+}
+.sidebar .wrap ul li:hover{
+    background-color: #5C5C5C;
+}
+.sidebar .wrap ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font: bold;
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+.content{
+    color: #000;
+    align-items: center;
+}
+
+.img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content{
+    margin-top: 30px;
+    text-align: center;
+}
+.content h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.content p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrap-ct{
+    display: flex;
+    margin-top: 40px;
+}
+
+.wrap-ct .cl-3{
+    margin-right: 50px;
+}
+
+.modals h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.modals img{
+    float: left;
+}
+.modals .ct p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
