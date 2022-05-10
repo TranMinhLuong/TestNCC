@@ -101,6 +101,8 @@ table {
 .content{
     margin-top: 30px;
     text-align: center;
+    background: #EFEFEF;
+    padding: 38px 269px;
 }
 .content h2{
     font-size: 18px;
